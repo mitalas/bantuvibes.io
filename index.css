@@ -28,8 +28,17 @@ nav img {
     margin-top: -5rem;
 }
 
-.flyers img {
-    width: 30rem;
+.frame {
+    height: 90vh;
+    overflow: hidden;
+}
+
+.frame img {
+    margin-top: -2rem;
+}
+
+.flyers img{
+    width: 20rem;
     z-index: -1;
     margin-top: 0;
 }
@@ -56,14 +65,9 @@ nav img {
 }
 
 .home p {
-    font-weight: 600;
-    padding-top: 2rem;
+    font-weight: 600;font-size: 19px;
+    padding-top: 2rem;text-align: center;
 }
-
-/* .home .image img {
-    height: 80vh;
-    /* margin-left: 10rem; 
-} */
 
 ul.link {
     list-style: none;
@@ -81,7 +85,7 @@ ul {
     display: flex;
     justify-content: space-between;
 }
-
+.cx{width: 20rem;}
 .about {
     justify-content: center;
     align-items: center;
@@ -108,6 +112,15 @@ ul {
     display: flex;
     width: 90vw;
     justify-content: space-around;
+}
+
+.flex1 {
+    display: flex;
+    cursor: pointer;
+}
+
+.flex1 img {
+    width: 100%;
 }
 
 .flex li img {
@@ -138,20 +151,29 @@ td img {
         max-width: 100%;
         height: 100vh;
         font-size: 13px;
+        overflow: hidden;
     }
 
-    .kelvin {
-        width: 200px;
+    .frame {
+        height: 300px;
+        overflow: hidden;
     }
 
-    .cx {
-        width: 20%;
-        height: 10%;
+    .frame img {
+        margin-top: -2rem;
     }
 
     .home p {
         font-weight: 600;
-        padding-top: 0rem;
+        position: absolute;
+        right: 1rem;
+    }
+
+    .home .link {
+        display: block;
+        right: 1rem;
+        position: absolute;
+        margin-top: 6rem;
     }
 
     nav {
@@ -181,8 +203,12 @@ td img {
         width: 100%;
     }
 
-    .flyers img {
-        width: 100%;
+    .none {
+        display: none;
+    }
+
+    .flyers img{
+        width: 50%;
         position: relative;
         z-index: -1;
         margin-top: 0;
@@ -199,3 +225,5 @@ td img {
     }
 
 }
+
+@media (max-width:398px) {}
