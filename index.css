@@ -37,7 +37,7 @@ nav img {
 .home-body {
     height: 100vh;
     padding: 1rem 5rem;
-    background-image: url(/assets/Frame\ 7.jpg);
+    background-image: url(assets/Frame\ 7.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,10 +84,11 @@ ul {
 
 .about {
     justify-content: center;
-    align-items: center;height: 100vh;
+    align-items: center;
+    height: 100vh;
 }
 
-.about .flex  {
+.about .flex {
     justify-content: center;
     align-items: center;
     place-content: center;
@@ -123,6 +124,10 @@ ul {
 
 table {
     width: 100%;
+}
+
+td img {
+    width: 25px;
 }
 
 @media (max-width:768px) {
