@@ -17,8 +17,9 @@ nav {
 }
 
 nav img {
-    width: 20px;
+    width: 2rem
 }
+
 
 .lets {
     width: 8rem;
@@ -33,22 +34,25 @@ nav img {
     margin-top: 0;
 }
 
-.home-body {height: 100v;
-    padding: 2rem 5rem;
+.home-body {
+    height: 100vh;
+    padding: 1rem 5rem;
     background-image: url(/assets/Frame\ 7.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: rgb(39, 38, 28);
-    background: linear-gradient(90deg, rgba(61, 57, 21, 1) 0%, rgba(62, 58, 21, 1) 0%, rgba(135, 130, 80, 1) 29%, */
-    /* rgba(53, 50, 23, 1) 100%); */
 }
 
 .home {
     margin-bottom: -2.5rem;
-    color: #D3D3D3;
-    display: flex;align-items: center;
+    /* color: #D3D3D3; */
+    display: flex;
+    align-items: center;
     justify-content: space-around;
+}
+
+.kelvin {
+    height: 85.7vh;
 }
 
 .home p {
@@ -78,25 +82,16 @@ ul {
     justify-content: space-between;
 }
 
-.youtube {
-    height: 50vh;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    place-items: center;
-    place-content: center;
-}
-
-.youtube img {
-    border: 1.5px solid #D3D3D3;
-    margin: 30px;
-    padding: 30px;
-    border-radius: 50%;
-}
-
 .about {
-    display: flex;
     justify-content: center;
+    align-items: center;height: 100vh;
+}
+
+.about .flex  {
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+    place-items: center;
 }
 
 .projects {
@@ -124,6 +119,10 @@ ul {
     align-items: center;
     justify-content: center;
     place-items: center;
+}
+
+table {
+    width: 100%;
 }
 
 @media (max-width:768px) {
