@@ -1,12 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
     background: #0a0707;
     margin: 0;
     padding: 0;
     color: #CCCCCC;
     max-width: 100%;
+    font-family: 'Nunito', sans-serif;
+    /* background: #2D2D2D; */
+    /* font-family: 'Sora'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 25px;
+
+    color: #FFFFFF;
 
 }
 
@@ -37,7 +47,7 @@ nav img {
     margin-top: -2rem;
 }
 
-.flyers img{
+.flyers img {
     width: 20rem;
     z-index: -1;
     margin-top: 0;
@@ -65,8 +75,10 @@ nav img {
 }
 
 .home p {
-    font-weight: 600;font-size: 19px;
-    padding-top: 2rem;text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+    padding-top: 2rem;
+    text-align: center;
 }
 
 ul.link {
@@ -85,7 +97,11 @@ ul {
     display: flex;
     justify-content: space-between;
 }
-.cx{width: 20rem;}
+
+.cx {
+    width: 20rem;
+}
+
 .about {
     justify-content: center;
     align-items: center;
@@ -143,6 +159,25 @@ td img {
     width: 25px;
 }
 
+footer {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.flex-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.table td {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+td a img {
+    width: 20px;
+}
+
 @media (max-width:768px) {
 
     .home-body {
@@ -190,6 +225,10 @@ td img {
     .home {
         flex-wrap: wrap-reverse;
     }
+    .kelvin {
+        height: 60vh;margin-left: -4rem;
+        /* margin-left: -5rem; */
+    }
 
     .flex {
         flex-wrap: wrap;
@@ -207,7 +246,7 @@ td img {
         display: none;
     }
 
-    .flyers img{
+    .flyers img {
         width: 50%;
         position: relative;
         z-index: -1;
