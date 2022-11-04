@@ -26,7 +26,7 @@ nav {
     justify-content: space-between;
 }
 
-nav img {
+.logo img {
     width: 2rem
 }
 
@@ -135,6 +135,10 @@ ul {
     cursor: pointer;
 }
 
+.vibe img {
+    width: 10px;
+}
+
 .flex1 img {
     width: 100%;
 }
@@ -225,8 +229,10 @@ td a img {
     .home {
         flex-wrap: wrap-reverse;
     }
+
     .kelvin {
-        height: 60vh;margin-left: -4rem;
+        height: 60vh;
+        margin-left: -4rem;
         /* margin-left: -5rem; */
     }
 
