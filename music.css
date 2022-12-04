@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     font-family: 'Kelly Slab', cursive;
     background: #232427;
 
@@ -16,22 +16,17 @@ body {
 }
 
 .player {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 220px;
-    height: 380px;
+    position: relative;
+    left: 5%;
+    /* transform: translate(-60%, -50%); */
+    width: 90%;
+    height: 90%;
     overflow: hidden;
     border-radius: 15px;
-
-
-
-
 }
 
-.card {
-    position: absolute;
+/* .card {
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -45,7 +40,7 @@ body {
         inset -5px -5px 15px rgba(255, 255, 255, 0.1),
         0px 0px 0px rgba(0, 0, 0, 0.3),
         0px 0px 0px rgba(255, 255, 255, 0.1);
-}
+} */
 
 .main {
     width: 100%;
@@ -163,18 +158,14 @@ i.far {
 }
 
 .player-list {
-    position: absolute;
+    position: relative;
     width: 100%;
-    margin-top: -20px;
+    margin-top: 20px;
     height: 380px;
     overflow: scroll;
     background: rgba(0, 0, 0, .8);
-    z-index: 2;
+    /* z-index: 2; */
     transition: all .5s ease-in-out;
-
-
-
-
 }
 
 .toggle-list {
@@ -256,7 +247,7 @@ img {
 
 /*FullScreen Button*/
 button {
-    position: absolute;
+    position: relative;
     bottom: 5%;
     right: 5%;
     color: #fff;
@@ -266,11 +257,11 @@ button {
     padding: 0.5rem 0.9em;
     background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
     background-size: 400%;
-    z-index: 1;
+    /* z-index: 1; */
     font-weight: bold;
     cursor: pointer;
     transition: all .5s;
-    z-index: 10;
+    /* z-index: 10; */
 
 }
 

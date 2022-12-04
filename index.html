@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bantu vibes</title>
   <link rel="stylesheet" href="Nav.css">
-  <link rel="stylesheet" href="vibe.css">
+  <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,22 +22,23 @@
             <a href="/">
               <img src="assets/Vector (1).png" alt="" />
             </a>
-          </div>
-          <header>
-            <div class="menu"> <button class="btn close-btn" id="close-btn"><i class="fas fa-times-circle"></i>
-              </button>
-              <button class="btn menu-btn" id="menu-btn"><i class="fas fabars"><img src="assets/drag_handle (1).png"
+            <div class="menu"> <a class="btn close-btn" id="close-btn"><i class="fas fa-times-circle"></i>
+              </a>
+              <a class="btn menu-btn" id="menu-btn"><i class="fas fabars"><img src="assets/drag_handle (1).png"
                     alt="" /></i>
-              </button>
+              </a>
             </div>
-            <nav class="top-nav">
-              <ul class="link-list" id="link-list">
-                <li><a href="#" onclick="toggleMenu()">about</a></li>
-                <li><a href="#" onclick="toggleMenu()">services</a></li>
-                <li><a href="#" onclick="toggleMenu()">contact</a></li>
-              </ul>
-            </nav>
+          </div>
+
+          <nav class="top-nav">
+            <ul class="link-list" id="link-list">
+              <li><a href="about.html" onclick="toggleMenu()">about</a></li>
+              <li><a href="music.html" onclick="toggleMenu()">services</a></li>
+              <li><a href="blog.html" onclick="toggleMenu()">contact</a></li>
+            </ul>
+          </nav>
           </header>
+          <header>
         </div>
       </nav>
       <!-- Header -->
@@ -81,14 +82,14 @@
     </div>
     <div class="wrap">
       <div class="about">
+        <div class="flyers">
+          <img src="assets/who am i_.png" alt="">
+        </div>
         <div class="bantu-vibe">
           <img src="assets/About mE.png" alt="">
         </div>
         <div class="flex-items">
           <div class="left">
-            <div class="flyers">
-              <img src="assets/who am i_.png" alt="">
-            </div>
             <div class="content">
               <h3>
                 I am Cohen Mwesigwa, a singer and song writer born and raised in
@@ -122,19 +123,19 @@
         </div>
       </div>
       <div class="work">
+        <div class="flyers">
+          <img src="assets/Music.png" alt="">
+        </div>
+        <div class="bantu-vibe">
+          <img src="assets/Cxnrvd’s work.png" alt="">
+        </div>
         <div class="reverse">
           <div class="left">
-            <div class="flyers">
-              <img src="assets/Music.png" alt="">
-            </div>
             <div class="frame">
               <img src="assets/Frame 105.png" alt="">
             </div>
           </div>
           <div class="right">
-            <div class="bantu-vibe">
-              <img src="assets/Cxnrvd’s work.png" alt="">
-            </div>
             <div class="content">
               <h3>
                 I am Cohen Mwesigwa, a singer and song writer born and raised in
@@ -278,12 +279,16 @@
             <div class="div">
               <div class="vibe">
                 <img class="lets" src="assets/Have an idea_.png" alt="">
+                <div class="flex-items">
+                  <section>
+                    <h2>Let's talk</h2>
+                  </section>
+                  <section> <a href="music.html"><i class="fab fa-twitter"></i></a>
+                    <a href="music.html"><i class="fab fa-instagram"></i></a>
+                    <a href="music.html"><i class="fab fa-youtube"></i></a>
+                  </section>
+                </div>
               </div>
-              <h2>Let's talk</h2>
-              <img src="assets/instagram.png" alt="" />
-              <img src="assets/Face (2).png" alt="" />
-              <img src="assets/twitter.png" alt="" />
-
             </div>
           </div>
         </section>
@@ -356,8 +361,9 @@
         <p>copyright bantu vibes</p>
       </section>
     </div>
-    <script src="Nav.js"></script>
-    <!-- footer section ends -->
+  </div>
+  <script src="Nav.js"></script>
+  <!-- footer section ends -->
 </body>
 
 </html>
