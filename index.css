@@ -4,10 +4,10 @@
 
 :root {
     --main-color: #8e44ad;
-    --black: rgb(192, 24, 24);
+    --black: rgb(29, 29, 29);
     --white: #fff;
     --light-black: rgb(179, 175, 175);
-    --light-white: rgb(185, 119, 119);
+    --light-white: rgb(158, 146, 146);
     --dark-bg: rgba(114, 23, 23, 0.7);
     --light-bg: white;
     --border: .1rem solid var(--black);
@@ -302,6 +302,12 @@ td img {
     width: 20rem;
 }
 
+hr {
+    border: 0;
+    border-bottom: solid 1px rgba(241, 241, 241, 0.3);
+    margin: 1em 0;
+}
+
 .bantu-vibe img {
     width: 9em;
     text-align: center;
@@ -391,7 +397,6 @@ footer a {
 
 .events a {
     margin-bottom: 2rem;
-    border-bottom: .1rem solid var(--white);
 }
 
 .events a:nth-last-child(1) {
@@ -436,7 +441,6 @@ th {
     justify-content: center;
     padding: 1px;
     width: 20%;
-    border-bottom: .1rem solid #ccc;
     text-align: left;
 }
 
@@ -469,15 +473,16 @@ th {
     .button img {
         width: 9rem;
     }
-td,
-th {
-    text-align: center;
-    justify-content: center;
-    padding: 1px;
-    width: 0%;
-    border-bottom: .1rem solid #ccc;
-    text-align: left;
-}
+
+    td,
+    th {
+        text-align: center;
+        justify-content: center;
+        padding: 1px;
+        width: 0%;
+        text-align: left;
+    }
+
     .album {
         margin-bottom: 4rem;
     }
@@ -606,9 +611,17 @@ th {
         height: 100%;
     }
 
+    .frame {
+        height: 100%;
+    }
+
     .frame img {
         width: 100%;
         margin-top: 0rem;
+    }
+
+    .contacts {
+        height: 100%;
     }
 }
 
@@ -620,7 +633,6 @@ th {
 }
 
 .footer .box-container {
-    border-bottom: 1px solid var(--white);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 3rem;
